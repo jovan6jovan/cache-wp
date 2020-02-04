@@ -40,10 +40,7 @@
             </article>
 
             <div class="sidebar">
-            <div class="search">
-                <input type="search" placeholder="Pretraga..." />
-                <button type="submit"><i class="fa fa-2x fa-search"></i></button>
-            </div>
+            <?php get_search_form(); ?>
             <div class="categories">
                 <h2>Kategorije</h2>
                 <ul>

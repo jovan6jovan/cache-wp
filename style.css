@@ -1080,24 +1080,25 @@ DESKTOP STYLES
   font-family: 'Open Sans', sans-serif;
 }
 
-.search {
+.search-container {
   display: flex;
   justify-content: center;
 }
 
-.search input[type=search] {
+.search-container input[type=text] {
   height: 48px;
   padding: 6px;
   border: 2px solid #100c08;
   border-radius: 10px;
   font-size: 18px;
+  vertical-align: top;
 }
 
-.search input[type=search]:focus {
+.search-container input[type=text]:focus {
   outline: none;
 }
 
-.search button {
+.search-container .submit {
   height: 48px;
   padding: 6px 10px;
   margin-left: 3px;
@@ -1108,7 +1109,7 @@ DESKTOP STYLES
   cursor: pointer;
 }
 
-.search button:hover {
+.search-container .submit:hover {
   background: #100c08;
   border: 2px solid #100c08;
 }
