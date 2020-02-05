@@ -2,7 +2,8 @@
 
 <?php while(have_posts()) {
     the_post(); ?>
-    <section class="section-banner">
+    <section class="section-banner" style="background-image: url(<?php echo get_theme_file_uri('/images/gallery-img/11.jpg') ?>); background-position: center;
+  background-size: cover;">
         <div class="banner-content-container">
             <div class="banner-heading-container">
                 <h1 class="banner-h1"><?php the_title(); ?></h1>

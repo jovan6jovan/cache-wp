@@ -103,7 +103,8 @@
 
             <div class="card">
                 <div class="card-header" id="header">
-                    <img src="<?php echo get_theme_file_uri('/images/content-img/blog1.jpg') ?>" alt="header" />
+                    <?php echo the_post_thumbnail( 'medium_large' ); ?>
+                    <!-- <img src="<?php echo get_theme_file_uri('/images/content-img/blog1.jpg') ?>" alt="header" /> -->
                 </div>
                 <div class="card-content">
                     <h3 class="card-title"><?php the_title(); ?></h3>

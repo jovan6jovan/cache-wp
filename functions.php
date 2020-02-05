@@ -23,6 +23,7 @@ function custom_excerpt_length($length) {
 
 add_action("wp_enqueue_scripts", "cache_files");
 add_action("after_setup_theme", "cache_features");
+add_theme_support( 'post-thumbnails' );
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 add_action( 'phpmailer_init', 'my_phpmailer_example' );
 

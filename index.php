@@ -22,8 +22,9 @@
                 <article class="post">
                     <div class="post-container">
                         <div class="post-img">
-                            <a href="#">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/content-img/blog1.jpg" alt="">
+                            <a href="<?php the_permalink(); ?>">
+                                <?php echo the_post_thumbnail( 'medium_large' ); ?>
+                                <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/content-img/blog1.jpg" alt=""> -->
                             </a>
                         </div>
                         <div class="post-content">

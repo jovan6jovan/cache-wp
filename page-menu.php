@@ -14,30 +14,31 @@
 
 <section class="gallery-page" id="gallery-container">
     <div class="gallery-page-container">
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/01.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/01.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/content-img/cache_interior.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/content-img/cache_interior.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/02.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/02.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/content-img/hero.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/content-img/hero.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/03.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/03.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/11.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/11.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/04.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/04.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/19.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/19.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/05.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/05.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/24.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/24.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/06.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/06.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/28.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/28.jpg') ?>" alt="">
         </a>
     </div>
 </section>
 
-<section class="split-from-middle" id="menu-container">
+<section class="split-from-middle" id="menu-container" style="background-image: url(<?php echo get_theme_file_uri('/images/content-img/food-image-gif.gif') ?>); background-position: center;
+  background-size: cover;">
     <div class="drinks-container">
-        <h1 class="menu-heading">KARTA PICA</h1>
+        <h1 class="menu-heading">KARTA PIĆA</h1>
         <div class="menu-card" id="menu-card-1">
             <img src="<?php echo get_theme_file_uri('/images/menu-img/01.jpg'); ?>"/>
         </div>
