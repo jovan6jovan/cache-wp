@@ -37,29 +37,29 @@
             <a href="<?php echo site_url('/o-nama') ?>" class="btn about-btn">Pročitaj više</a>
         </div>
         <div class="about-img-container">
-            <img src="http://u.cubeupload.com/jovan6jovan/cacheenterijer.jpg" alt="Restaurant Cache interior"
+            <img src="<?php echo get_theme_file_uri('/images/content-img/cache_interior.jpg') ?>" alt="Restaurant Cache interior"
                 class="interior-img" />
         </div>
     </section>
 
     <section class="services">
         <div class="service-container">
-            <img src="https://sendeyo.com/up/d/7827ed0cd7" alt="catering" class="svg-img" />
+            <img src="<?php echo get_theme_file_uri('/images/svg/catering.svg') ?>" alt="catering" class="svg-img" />
             <h3>Ketering</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="service-container">
-            <img src="https://sendeyo.com/up/d/b9d4db2cbd" alt="parking" class="svg-img" />
+            <img src="<?php echo get_theme_file_uri('/images/svg/parking.svg') ?>" alt="parking" class="svg-img" />
             <h3>Parking</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="service-container">
-            <img src="https://sendeyo.com/up/d/b952dca6d6" alt="party" class="svg-img" />
+            <img src="<?php echo get_theme_file_uri('/images/svg/party.svg') ?>" alt="party" class="svg-img" />
             <h3>Proslave</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="service-container">
-            <img src="https://sendeyo.com/up/d/20ebf23ce0" alt="hours" class="svg-img" />
+            <img src="<?php echo get_theme_file_uri('/images/svg/hours.svg') ?>" alt="hours" class="svg-img" />
             <h3>Non-Stop</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
@@ -69,7 +69,7 @@
         <div class="menu-gallery-container">
             <section class="menu">
                 <h4 class="menu-h4">Menu</h4>
-                <img src="http://u.cubeupload.com/jovan6jovan/menu.jpg" alt="Cache menu" class="menu-img" />
+                <img src="<?php echo get_theme_file_uri('/images/content-img/menu.jpg') ?>" alt="Cache menu" class="menu-img" />
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil rerum
                     quisquam atque dignissimos reiciendis aperiam? Ut sunt impedit placeat.
@@ -79,7 +79,7 @@
 
             <section class="gallery">
                 <h4 class="gallery-h4">Galerija</h4>
-                <img src="http://u.cubeupload.com/jovan6jovan/steak.jpg" alt="Cache gallery" class="gallery-img" />
+                <img src="<?php echo get_theme_file_uri('/images/content-img/gallery.jpg') ?>" alt="Cache gallery" class="gallery-img" />
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil rerum
                     quisquam atque dignissimos reiciendis aperiam? Ut sunt impedit placeat.
@@ -103,7 +103,7 @@
 
             <div class="card">
                 <div class="card-header" id="header">
-                    <img src="http://u.cubeupload.com/jovan6jovan/insidetherestaurantw.jpg" alt="header" />
+                    <img src="<?php echo get_theme_file_uri('/images/content-img/blog1.jpg') ?>" alt="header" />
                 </div>
                 <div class="card-content">
                     <h3 class="card-title"><?php the_title(); ?></h3>

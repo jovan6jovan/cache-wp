@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
-<section class="section-banner" style="background-image: url(<?php echo get_theme_file_uri('/images/content-img/2ababoutbanner.jpg') ?>); background-position: center;
-  background-size: cover;">
+<section class="section-banner">
   <div class="banner-content-container">
     <div class="banner-heading-container">
       <h1 class="banner-h1">O nama</h1>

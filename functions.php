@@ -1,7 +1,6 @@
 <?php 
 
 function cache_files() {
-    // wp_enqueue_script("search-js", get_theme_file_uri("/js/Search.js"), NULL, '1.0', true);
     wp_enqueue_script("menu_js", get_theme_file_uri("/js/menu.js"), NULL, '1.0', true);
     wp_enqueue_script("main_cache_js", get_theme_file_uri("/js/main.js"), NULL, '1.0', true);
     wp_enqueue_script('lightbox-js', '//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js', array('jquery'), '2.11.1', false);
@@ -25,5 +24,20 @@ function custom_excerpt_length($length) {
 add_action("wp_enqueue_scripts", "cache_files");
 add_action("after_setup_theme", "cache_features");
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+add_action( 'phpmailer_init', 'my_phpmailer_example' );
+
+function my_phpmailer_example( $phpmailer ) {
+    $phpmailer->isSMTP();     
+    $phpmailer->Host = 'smtp.example.com';
+    $phpmailer->SMTPAuth = true; // Force it to use Username and Password to authenticate
+    $phpmailer->Port = 25;
+    $phpmailer->Username = 'yourusername';
+    $phpmailer->Password = 'yourpassword';
+
+    // Additional settings…
+    //$phpmailer->SMTPSecure = "tls"; // Choose SSL or TLS, if necessary for your server
+    //$phpmailer->From = "you@yourdomail.com";
+    //$phpmailer->FromName = "Your Name";
+}
 
 ?>

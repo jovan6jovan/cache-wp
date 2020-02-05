@@ -266,7 +266,7 @@ a {
       rgba(16, 12, 8, 0.8),
       rgba(16, 12, 8, 0.7)
     ),
-    url("https://u.cubeupload.com/jovan6jovan/cache.jpg") no-repeat center
+    url("images/content-img/hero.jpg") no-repeat center
       center fixed;
   background-size: cover;
   color: var(--white);
@@ -896,7 +896,7 @@ DESKTOP STYLES
       rgba(16, 12, 8, 0.3),
       rgba(16, 12, 8, 0.4)
     ),
-    url("http://u.cubeupload.com/jovan6jovan/cachecontactbanner.jpg");
+    url("images/content-img/about_banner.jpg");
   top: 0;
   left: 0;
   bottom: 0;
@@ -1313,7 +1313,7 @@ DESKTOP STYLES
 }
 
 .about-info-img {
-  background: url('http://u.cubeupload.com/jovan6jovan/aboutinfoimg.jpg') no-repeat center center;
+  background: url("images/content-img/about_info_img.jpg") no-repeat center center;
   background-size: cover;
   min-height: 40vh;
 }
@@ -1321,7 +1321,7 @@ DESKTOP STYLES
 /* ABOUT-PARALLAX */
 .about-parallax {
   min-height: 50vh;
-  background: linear-gradient(to bottom, rgba(16, 12, 8, 0.6), rgba(16, 12, 8, 0.7)), url('http://u.cubeupload.com/jovan6jovan/RestoranCacheenterij.jpg') no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(16, 12, 8, 0.6), rgba(16, 12, 8, 0.7)), url("images/content-img/about_paralax.jpg") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -1462,6 +1462,25 @@ DESKTOP STYLES
 .star {
   font-size: 1.5rem;
   color: #fff;
+}
+
+.error{
+  padding: 5px 9px;
+  margin-bottom: 1rem;
+  border: 1px solid #C20114;
+  background-color: #C20114;
+  color: #FEFCFB;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.success{
+  padding: 5px 9px;
+  border: 1px solid #29BF12;
+  background-color: #29BF12;
+  color: #FEFCFB;
+  border-radius: 3px;
+  text-align: center;
 }
 
 .contact-form button {
@@ -1737,3 +1756,9 @@ DESKTOP STYLES
 /* END OF GALLERY */
 
 /* === END OF MENU PAGE === */
+
+/* === LIGHTBOX === */
+.lb-number {
+  display: none !important;
+}
+/* === END LIGHTBOX === */

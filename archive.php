@@ -23,7 +23,7 @@
                     <div class="post-container">
                         <div class="post-img">
                             <a href="#">
-                                <img src="https://u.cubeupload.com/jovan6jovan/insidetherestaurantw.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/content-img/blog1.jpg" alt="">
                             </a>
                         </div>
                         <div class="post-content">
