@@ -2,7 +2,7 @@
         <div class="footer">
             <section class="footer-info">
                 <h2 id="footer-logo"><a href="#">Caché</a></h2>
-                <p class="phone-p">Broj telefona: <strong>+381 12 3456789</strong></p>
+                <p class="phone-p">Broj telefona: <a href="tel:+38169777992"><strong>+381 69 777992</strong></a></p>
                 <p class="address-p">Adresa: <strong>Humska 8, 11000 Beograd</strong></p>
             </section>
 

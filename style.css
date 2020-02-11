@@ -1,7 +1,9 @@
 /*
  Theme Name: Cache Restaurant Theme
- Author: Wyvern Solutions
+ Description: For restaurants
+ Author: Wyvern Web Solutions
  Version: 1.0
+ Tags: mobile first, responsive, restaurant, flexbox layout, css grid layout
 */
 
 /*
@@ -37,6 +39,10 @@ nav {
 
 a {
   text-decoration: none;
+}
+
+img {
+  width: 100%;
 }
 
 .btn {
@@ -485,8 +491,7 @@ a {
   }
 
   .interior-img {
-    max-width: 95%;
-    margin-left: 0;
+    max-width: 80%;
   }
 
   .services {
@@ -737,6 +742,10 @@ footer {
   letter-spacing: 1px;
   padding-top: 16px;
   margin-bottom: 32px;
+}
+
+.phone-p a {
+  color: var(--white);
 }
 
 .footer-nav {
@@ -1613,7 +1622,7 @@ DESKTOP STYLES
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   background-color: var(--black);
 }
 
@@ -1775,8 +1784,7 @@ DESKTOP STYLES
 
   .gallery-page-container {
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0;
-    grid-gap: 48px;
+    grid-gap: 32px;
   }
 }
 /* === END OF MENU PAGE === */
@@ -1786,3 +1794,43 @@ DESKTOP STYLES
   display: none !important;
 }
 /* === END LIGHTBOX === */
+
+/* === 404 === */
+.error404-container {
+  text-align: center;
+}
+
+.error404-container h1 {
+  margin-top: 16px;
+}
+
+.error-img {
+  width: 50%;
+  display: block;
+  margin: 32px auto;
+}
+
+.error-paragraphs {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.error-paragraphs a {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1025px) {
+  .error404-container h1 {
+    font-size: 32px;
+  }
+
+  .error-img {
+    width: 30%;
+  }
+
+  .error-paragraphs {
+    font-size: 24px;
+  }
+}
+/* === END OF 404 === */

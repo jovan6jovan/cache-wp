@@ -11,12 +11,12 @@
             <a href="<?php echo site_url('/kontakt') ?>" class="btn hero-btn hero-contact-btn">
                 Kontakt info
             </a>
-            <a href="<?php echo site_url('/menu') ?>" class="btn hero-btn hero-menu-btn">
+            <a href="<?php echo site_url('/menu#menu-container') ?>" class="btn hero-btn hero-menu-btn">
                 Pogledajte menu
             </a>
         </div>
         <a class="scroll-down" id="scroll-down" href="#about"></a>
-        <p class="scroll-down-p">Scroll down</p>
+        <p class="scroll-down-p">Skrolujte dole</p>
     </section>
 
     <section class="about" id="about">
@@ -37,7 +37,7 @@
             <a href="<?php echo site_url('/o-nama') ?>" class="btn about-btn">Pročitaj više</a>
         </div>
         <div class="about-img-container">
-            <img src="<?php echo get_theme_file_uri('/images/content-img/cache_interior.jpg') ?>" alt="Restaurant Cache interior"
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/11.jpg') ?>" alt="Restaurant Cache interior"
                 class="interior-img" />
         </div>
     </section>

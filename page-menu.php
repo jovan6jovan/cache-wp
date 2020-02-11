@@ -17,20 +17,29 @@
         <a href="<?php echo get_theme_file_uri('/images/content-img/cache_interior.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
             <img src="<?php echo get_theme_file_uri('/images/content-img/cache_interior.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/content-img/hero.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/content-img/hero.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/08.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/08.jpg') ?>" alt="">
         </a>
         <a href="<?php echo get_theme_file_uri('/images/gallery-img/11.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
             <img src="<?php echo get_theme_file_uri('/images/gallery-img/11.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/19.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/19.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/23.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/23.jpg') ?>" alt="">
         </a>
-        <a href="<?php echo get_theme_file_uri('/images/gallery-img/24.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
-            <img src="<?php echo get_theme_file_uri('/images/gallery-img/24.jpg') ?>" alt="">
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/07.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/07.jpg') ?>" alt="">
         </a>
         <a href="<?php echo get_theme_file_uri('/images/gallery-img/28.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
             <img src="<?php echo get_theme_file_uri('/images/gallery-img/28.jpg') ?>" alt="">
+        </a>
+        <a href="<?php echo get_theme_file_uri('/images/content-img/hero.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/content-img/hero.jpg') ?>" alt="">
+        </a>
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/03.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/03.jpg') ?>" alt="">
+        </a>
+        <a href="<?php echo get_theme_file_uri('/images/gallery-img/24.jpg') ?>" data-lightbox="nesto" class="gallery-image-container-link">
+            <img src="<?php echo get_theme_file_uri('/images/gallery-img/24.jpg') ?>" alt="">
         </a>
     </div>
 </section>
